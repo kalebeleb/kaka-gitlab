@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.topo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.logo-principal {
+  height: 72px;
+}
+
+.menu-gap {
+  display: flex;
+  gap: 32px;
+}
+
+.menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #fff2e7;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff;
+}
+
+.sub-titulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.botao {
+  background-color: #9c06e2;
+  border: none;
+  width: 300px;
+  height: 60px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+.botao:hover {
+  background-color: rgba(255, 235, 255, 0.54);
+}
+
+.imagem {
+  height: 500px;
+  width: 430px;
+}
+pace- .logo-principal {
+  height: 72px;
+}
+
+.titulo-secundario {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.secundario-paragrafo {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+
+  color: #ffffff;
+}
+body {
+  font-size: 100%;
+
+  /*define a largura da pagina pq ta dentro do body*/
+
+  margin: auto;
+  /*centraliza o elemento se vc estiver definido o tamanho*/
+  background: url(N05137_2.jpg);
+  /*background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+  /*adiciona plano de fundo e ajusta a imagem*/
+  font-family: 'Readex Pro', sans-serif;
+  /*estilo da font*/
+  line-height: 1.5;
+  /*espaçamento de texto*/
+  color: #fff;
+}
+
+.logo,
+.title,
+.sub-title {
+  margin: 0;
+  text-align: center;
+}
+
+.concerts {
+  margin: 30px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.sets table {
+  background: #0000001f;
+  border-radius: 5px;
+  padding: 79px;
+  margin: 0 auto;
+}
